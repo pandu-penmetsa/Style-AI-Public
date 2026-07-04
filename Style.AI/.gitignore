@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+api_logs.txt
+api_logs.txt.*
+models/

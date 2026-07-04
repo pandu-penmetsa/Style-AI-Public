@@ -1,0 +1,61 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Backend runtime artifacts
+Style.AI/api_logs.txt
+Style.AI/api_logs.txt.*
+Style.AI/models/
+models/
+
+# Node / React
+node_modules/
+Style.AI-UI/node_modules/
+build/
+Style.AI-UI/build/
+coverage/
+Style.AI-UI/coverage/
+.pnp
+.pnp.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated media and local scratch files
+*.tmp
+*.temp
+*.bak
+*.onnx
+*.png
+*.jpg
+*.jpeg
+*.webp
+!Style.AI-UI/public/**/*.png
+!Style.AI-UI/public/**/*.jpg
+!Style.AI-UI/public/**/*.jpeg
+!Style.AI-UI/public/**/*.webp

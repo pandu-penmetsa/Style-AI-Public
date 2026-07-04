@@ -1,0 +1,250 @@
+/* ==========================================
+   Global
+========================================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #edf2f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ==========================================
+   App Layout
+========================================== */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #edf2f7;
+}
+
+.mobile-container {
+  width: 100%;
+  max-width: 420px;
+  min-height: 100vh;
+  background: #ffffff;
+  padding: 16px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ==========================================
+   Floating Action Button
+========================================== */
+
+.floating-button {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  max-width: 388px;
+  height: 54px;
+  border-radius: 999px;
+  font-weight: 600;
+  z-index: 1050;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* ==========================================
+   Common Cards
+========================================== */
+
+.app-card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+}
+
+.app-card .card-body {
+  padding: 16px;
+}
+
+/* ==========================================
+   Common Buttons
+========================================== */
+
+.btn-primary {
+  border-radius: 999px;
+}
+
+.btn {
+  min-height: 46px;
+}
+
+/* ==========================================
+   Images
+========================================== */
+
+.img-preview {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.img-preview2 {
+  width: 100px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.reference-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+}
+
+/* ==========================================
+   Loading
+========================================== */
+
+.loading-text {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.status-badge {
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+/* ==========================================
+   Scrollbar
+========================================== */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+
+/* ==========================================
+   Mobile
+========================================== */
+
+@media (max-width: 576px) {
+
+  .mobile-container {
+    max-width: 100%;
+    padding: 14px;
+    padding-bottom: 90px;
+  }
+
+  .floating-button {
+    width: calc(100% - 28px);
+    bottom: 14px;
+  }
+
+}
+
+/* ==========================================
+   Tablet/Desktop
+========================================== */
+
+@media (min-width: 577px) {
+
+  .mobile-container {
+    margin: 20px 0;
+    border-radius: 24px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.12);
+  }
+
+}
+
+
+/* ========================================== 
+========================================== */
+
+.modal-dialog {
+    margin: 0;
+}
+
+@media (max-width: 576px) {
+
+    .modal-dialog {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .modal-content {
+        border-radius: 24px 24px 0 0;
+        min-height: 80vh;
+        max-height: 80vh;
+    }
+
+    .modal-body {
+        overflow-y: auto;
+    }
+
+}
+
+
+/* Upload Area */
+
+.upload-box {
+    height: 300px;
+    border: 2px dashed #d0d5dd;
+    border-radius: 20px;
+    background: #f8fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.upload-box:hover {
+    background: #eef4ff;
+    border-color: #6f42c1;
+}
+
+.upload-icon {
+    font-size: 70px;
+}
+
+/* Uploaded Image */
+
+.uploaded-thumb {
+    width: 90px;
+    height: 90px;
+    border-radius: 18px;
+    object-fit: cover;
+    border: 2px solid #e9ecef;
+    flex-shrink: 0;
+}
+
+/* Mobile */
+
+@media (max-width:576px){
+
+    .uploaded-thumb{
+        width:80px;
+        height:80px;
+    }
+
+    .upload-box{
+        height:260px;
+    }
+
+}
+
+

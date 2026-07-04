@@ -1,0 +1,14 @@
+﻿{
+    "styles":  {
+                   "style1":  "/reference-images/hair/style1.jpg",
+                   "style2":  "/reference-images/hair/style2.jpg",
+                   "style3":  "/reference-images/hair/style3.jpg",
+                   "style4":  "/reference-images/hair/style4.jpg",
+                   "style5":  "/reference-images/hair/style5.jpg",
+                   "style6":  "/reference-images/hair/style6.jpg",
+                   "style7":  "/reference-images/hair/style7.jpg",
+                   "style8":  "/reference-images/hair/style8.jpg",
+                   "style9":  "/reference-images/hair/style9.jpg",
+                   "style10":  "/reference-images/hair/style10.jpg"
+               }
+}

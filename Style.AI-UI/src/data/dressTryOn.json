@@ -1,0 +1,13 @@
+﻿{
+    "styles":  {
+                   "style1":  "/reference-images/dress/saree1.jpg",
+                   "style2":  "/reference-images/dress/saree2.jpg",
+                   "style3":  "/reference-images/dress/saree3.jpg",
+                   "style4":  "/reference-images/dress/saree4.jpg",
+                   "style5":  "/reference-images/dress/saree5.jpg",
+                   "style6":  "/reference-images/dress/saree6.jpg",
+                   "style7":  "/reference-images/dress/saree7.jpg",
+                   "style8":  "/reference-images/dress/saree8.jpg",
+                   "style9":  "/reference-images/dress/saree9.jpg"
+               }
+}
