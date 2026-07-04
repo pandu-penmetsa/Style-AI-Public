@@ -56,9 +56,3 @@ UI production build:
 cd Style.AI-UI
 npm run build
 ```
-
-## Security Notes
-
-- Do not commit `.env` files, API keys, logs, generated images, model files, or virtual environments.
-- The InsightFace swapper model should stay outside git, commonly under `Style.AI/models/`.
-- Rotate any API key that has ever been shared in chat, screenshots, logs, or committed history.
